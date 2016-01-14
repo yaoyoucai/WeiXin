@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_serach"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@mipmap/actionbar_search_icon"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="人">
+    </item>
+    <item
+        android:id="@+id/group_chat"
+        android:icon="@mipmap/ofm_group_chat_icon"
+        android:title="@string/menu_group_chat"></item>
+    <item
+        android:id="@+id/addFriends"
+        android:icon="@mipmap/ic_menu_invite"
+        android:title="@string/menu_addFriends"></item>
+    <item
+        android:id="@+id/scan"
+        android:icon="@mipmap/ofm_qrcode_icon"
+        android:title="@string/menu_scan"></item>
+    <item
+        android:id="@+id/pay"
+        android:icon="@mipmap/ic_menu_set_as"
+        android:title="@string/menu_pay"></item>、
+    <item
+        android:id="@+id/feedBack"
+        android:icon="@mipmap/ofm_feedback_icon"
+        android:title="@string/menu_feedback"></item>
+</menu>
